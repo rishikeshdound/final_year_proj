@@ -1,8 +1,14 @@
+import os
+import signal
 from flask import Flask, render_template, request
 from FeatureExtraction.feature import *
 from FeatureExtraction.visualise import *
 import pickle
 import numpy as np
+
+
+
+
 
 app = Flask(__name__)
 
